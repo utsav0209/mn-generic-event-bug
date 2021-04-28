@@ -1,12 +1,9 @@
-## Micronaut 2.4.4 Documentation
+## About Repository
 
-- [User Guide](https://docs.micronaut.io/2.4.4/guide/index.html)
-- [API Reference](https://docs.micronaut.io/2.4.4/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/2.4.4/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+This repository demonstrates a bug in Micronaut Core library, where Generic Events invoke all the
+possible implementation of Generic Class event listeners.
 
-## Feature http-client documentation
+### How to run
 
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+- clone the repository
+- run `./gradlew test` command to see failing tests which describe the issue
